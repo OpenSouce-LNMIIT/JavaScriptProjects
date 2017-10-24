@@ -27,3 +27,4 @@ It works on web users’ computers — even when they are offline and allows you
 * Use [NASA's Gene Lab API](https://api.nasa.gov/api.html#genelab) to build a tool to visualize and display data in an interactive manner
 * Use [USGS's API](https://earthquake.usgs.gov/fdsnws/event/1/) to visualise legacy data of Earthquakes with various filters(Magnitude, Date, Areas affected, Place of Origin)
 * Use [Google MAP API](https://developers.google.com/maps/) and [World Bank's Climate Data API](https://datahelpdesk.worldbank.org/knowledgebase/articles/902061-climate-data-api) to build an interactive tool to visualize historical climate data by countries, regions, etc.
+* Use [Twitter's API](https://developer.twitter.com/en/docs) alongwith a sentiment analysis library [example](https://www.npmjs.com/package/sentiment) to visualise tweets by celebrities and politicians and find trends.
