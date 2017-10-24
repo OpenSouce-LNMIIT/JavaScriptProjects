@@ -18,3 +18,4 @@ This guide is intended for people looking to work on projects to get hands-on le
 
 * Use [NASA's Gene Lab API](https://api.nasa.gov/api.html#genelab) to build a tool to visualize and display data in an interactive manner
 * Use [USGS's API](https://earthquake.usgs.gov/fdsnws/event/1/) to visualise legacy data of Earthquakes with various filters(Magnitude, Date, Areas affected, Place of Origin)
+* Use [Google MAP API](https://developers.google.com/maps/) and [World Bank's Climate Data API](https://datahelpdesk.worldbank.org/knowledgebase/articles/902061-climate-data-api) to build an interactive tool to visualize historical climate data by countries, regions, etc.
