@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(bgd.jpg) no-repeat;
+    overflow-x: hidden;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.container {
+    padding-top: 300px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    padding: 5px;
+    margin-right: 5px;
+    border: 4px solid grey;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    width: 10%;
+    align-self: center;
+    text-shadow: 2px 2px 2px red;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+kbd {
+    display: block;
+    font:italic bold 50px monospace;
+    color: white;
+}
+
+.sound {
+    font-size: 20px;
+    color: red;
+    word-wrap: nowrap;
+}
+
+.playing {
+    border-color:orange;
+    box-shadow: 2px 2px 15px orange;
+
+    transform: scale(1.1, 1.1);
+}
