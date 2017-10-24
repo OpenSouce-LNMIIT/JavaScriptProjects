@@ -42,4 +42,4 @@ A collection of deployed live projects with code.
 
 ## Contributing
 
-* See [CONTRIBUTING.md](CONTRIBUTING.md) file.
+* Those who are new to open source and don't know how to send Pull Request see [CONTRIBUTING.md](CONTRIBUTING.md) file.
