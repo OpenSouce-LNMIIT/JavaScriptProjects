@@ -15,6 +15,8 @@ This guide is intended for people looking to work on projects to get hands-on le
 * Integrate SoundCloud on a web page to play a song according to the user's mood
 * Use [StarWars-API](https://swapi.co/) to generate a profile of all the characters and their weapons/vehicles
 * Use [Unsplash-API](https://source.unsplash.com/) to create an image carousel
+* Use [Paper.js](http://paperjs.org/showcase) to create amazing graphics.
+* Use [ParallaxJS](http://matthew.wagerfield.com/parallax/) to create full page parallax boilerplates
 
 ### Advanced Level Projects
 
