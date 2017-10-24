@@ -1,4 +1,4 @@
-# JavaScriptProjects
+# JavaScript Projects
 This guide is intended for people looking to work on projects to get hands-on learning experience but out of ideas.
 JavaScript is very easy to implement. All you need to do is put your code in the HTML document and tell the browser that it is JavaScript.
 It works on web users’ computers — even when they are offline and allows you to create highly responsive interfaces that improve the user experience and provide dynamic functionality, without having to wait for the server to react and show another page.
@@ -28,3 +28,7 @@ It works on web users’ computers — even when they are offline and allows you
 * Use [USGS's API](https://earthquake.usgs.gov/fdsnws/event/1/) to visualise legacy data of Earthquakes with various filters(Magnitude, Date, Areas affected, Place of Origin)
 * Use [Google MAP API](https://developers.google.com/maps/) and [World Bank's Climate Data API](https://datahelpdesk.worldbank.org/knowledgebase/articles/902061-climate-data-api) to build an interactive tool to visualize historical climate data by countries, regions, etc.
 * Use [Twitter's API](https://developer.twitter.com/en/docs) alongwith a sentiment analysis library [example](https://www.npmjs.com/package/sentiment) to visualise tweets by celebrities and politicians and find trends.
+
+## Contributing
+
+* See [CONTRIBUTING.md](CONTRIBUTING.md) file.
