@@ -6,6 +6,7 @@ This guide is intended for people looking to work on projects to get hands-on le
 * Make a Tic Tac Toe Board
 * Make a web based calculator
 * Make a Todo List with persisting browser storage using localStorage api
+* Make a web based digital clock
 
 ### Intermediate Level Projects
 
@@ -13,6 +14,7 @@ This guide is intended for people looking to work on projects to get hands-on le
 * Use Yahoo! Weather api to build a weather widget
 * Integrate SoundCloud on a web page to play a song according to the user's mood
 * Use [StarWars-API](https://swapi.co/) to generate a profile of all the characters and their weapons/vehicles
+* Use [Unsplash-API](https://source.unsplash.com/) to create an image carousel
 
 ### Advanced Level Projects
 
