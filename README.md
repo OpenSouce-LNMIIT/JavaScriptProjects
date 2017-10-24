@@ -29,6 +29,17 @@ It works on web users’ computers — even when they are offline and allows you
 * Use [Google MAP API](https://developers.google.com/maps/) and [World Bank's Climate Data API](https://datahelpdesk.worldbank.org/knowledgebase/articles/902061-climate-data-api) to build an interactive tool to visualize historical climate data by countries, regions, etc.
 * Use [Twitter's API](https://developer.twitter.com/en/docs) alongwith a sentiment analysis library [example](https://www.npmjs.com/package/sentiment) to visualise tweets by celebrities and politicians and find trends.
 
+
+### Inspiration
+
+A collection of deployed live projects with code.
+
+* Javascript cloth simulation[Tearable Cloth v2](https://codepen.io/dissimulate/pen/KrAwx)
+* Fireworks animation generator[Fireworls in canvas](https://codepen.io/jackrugile/pen/acAgx)
+* Creating performant particles animation[30k particles in canvas](https://codepen.io/soulwire/pen/Ffvlo)
+* Cool random animation based on cursor[Draw Worm](https://codepen.io/tholman/pen/EpfLs)
+* [Spaceship Shooter Game](https://codepen.io/mecarter/pen/BnpsD)
+
 ## Contributing
 
 * See [CONTRIBUTING.md](CONTRIBUTING.md) file.
