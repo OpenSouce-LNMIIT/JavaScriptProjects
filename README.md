@@ -1,11 +1,15 @@
 # JavaScriptProjects
 This guide is intended for people looking to work on projects to get hands-on learning experience but out of ideas.
+JavaScript is very easy to implement. All you need to do is put your code in the HTML document and tell the browser that it is JavaScript.
+It works on web users’ computers — even when they are offline and allows you to create highly responsive interfaces that improve the user experience and provide dynamic functionality, without having to wait for the server to react and show another page.
 
-#### Projects for Beginners
+### Projects for Beginners
 
 * Make a Tic Tac Toe Board
 * Make a web based calculator
 * Make a Todo List with persisting browser storage using localStorage api
+* Make a unit converter (time, distance, currency, etc)
+* Random Maze Generator as an online game
 * Make a web based digital clock
 
 ### Intermediate Level Projects
