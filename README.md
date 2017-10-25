@@ -11,7 +11,7 @@ It works on web users’ computers — even when they are offline and allows you
 * Make a unit converter (time, distance, currency, etc)
 * Random Maze Generator as an online game
 * Make a web based digital clock
-
+* Update CSS variables with JS
 ### Intermediate Level Projects
 
 * Make a script which autofills common signup fields using random data
