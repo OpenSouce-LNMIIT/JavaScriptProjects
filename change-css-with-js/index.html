@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Updata CSS variables with JS </title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<h2>Updata CSS variables with <span class="hl">JS</span> </h2>
+<div class="control">
+	<label>Spacing:</label>
+	<input type="range" name="spacing" min="10" max="20" data-sizing='px'>
+	<label>Blur:</label>
+	<input type="range" name="blur" min="0" max='20' data-sizing='px'>
+	<label>Color:</label>
+	<input type="color" name="color" value="#ffc600">
+	<br>
+	<br>
+</div>
+<img class='b' src="https://az616578.vo.msecnd.net/files/2016/11/06/636140659029117301-893379077_city.jpeg" width="60%" height="60%">
+<img class='a'  src="https://az616578.vo.msecnd.net/files/2016/11/06/636140659029117301-893379077_city.jpeg" width="10%" height="10%">
+</body>
+
+<style type="text/css">	
+	:root {
+		--spacing:10px;
+		--color:#ffc600;
+		--blur:10px;
+	}
+	.b {
+		padding: var(--spacing);
+		filter: blur(var(--blur));
+		background: var(--color);
+     }
+	.hl{
+		color:var(--color) ;
+	}
+	
+	body {
+		text-align: center;
+		background:#193549;
+		color: white;
+		font-family: 'helvetica neue', sans-serif;
+		font-weight: 100;
+		font-size: 50px;
+	}
+
+
+</style>
+<script type="text/javascript">
+	var inputs = document.querySelectorAll('.control input');
+
+	function handleUpdate(){
+		const suffix = this.dataset.sizing || '';
+		document.documentElement.style.setProperty(`--${this.name}`,this.value + suffix);
+	}
+
+	inputs.forEach(input => input.addEventListener('change', handleUpdate));
+	inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+
+	
+</script>
+</html>
