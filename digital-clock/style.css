@@ -1,0 +1,18 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+
+.container{
+	background-color:#3030bb;
+	height:100vh;
+	padding:30px 40px;
+	display:flex;
+	font-size:10em;
+	justify-content: center;
+	align-items: center;
+	color:whitesmoke;
+	font-family: courier;
+}
+
