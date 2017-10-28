@@ -6,12 +6,14 @@ It works on web users’ computers — even when they are offline and allows you
 ### Projects for Beginners
 
 * Make a Tic Tac Toe Board
-* Make a web based calculator
+* Make a web based [calculator](https://github.com/Cybros/JavaScriptProjects/tree/master/calculator)
 * Make a Todo List with persisting browser storage using localStorage api
 * Make a unit converter (time, distance, currency, etc)
 * Random Maze Generator as an online game
 * Make a web based digital clock
-* Update CSS variables with JS
+* [Update CSS variables](https://github.com/Cybros/JavaScriptProjects/tree/master/change-css-with-js) with JS
+* Make a [flying color changing butterfly](https://github.com/Cybros/JavaScriptProjects/tree/master/Butterfly_) with JS using the Canavas Api.
+* Make a web based [Drum](https://github.com/Cybros/JavaScriptProjects/tree/master/drums) with sounds and keyboard input using JS
 ### Intermediate Level Projects
 
 * Make a script which autofills common signup fields using random data
