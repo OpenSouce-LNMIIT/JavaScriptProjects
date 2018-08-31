@@ -1,0 +1,104 @@
+/* Created by Meet Mehta */
+
+body {
+    background-color: green;
+}
+
+.a
+{
+    position:fixed;
+    max-height:35%;
+    min-height:35%;
+    min-width:80%;
+    top:30%;
+    left:10%;
+    background:linear-gradient(to right , blue, rgb(255,0,255));
+    padding-top:0%;
+    border-radius:5%;
+    box-shadow:5px 5px 5px black;
+}
+
+#space
+{
+    margin-top:8%;
+}
+
+#safe
+{
+    position:fixed;
+    bottom:3%;
+}
+
+h3
+{
+    margin-top:3%;
+    text-align:center;
+}
+
+#name
+{
+    margin-left:3%;
+}
+
+*
+{
+    font-family:serif;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+
+#cvv1
+{
+    position:absolute ;
+    right:5.2%;
+}
+
+#cvv2
+{
+    position:absolute ;
+    right:8.3%;
+}
+
+#cvv3
+{
+    position:absolute ;
+    right:11.4%;
+}
+
+.acc
+{
+    font-size:1.5em;
+    position:relative;
+    top:-30px;
+    left: -10px;
+}
+
+#s1
+{
+    position:absolute;
+    bottom:2%;
+    left:2%;
+    float:left;
+}
+
+#s2
+{
+    position:absolute;
+    bottom:2%;
+    right:2%;
+    float:right;
+}
+
+#membership
+{
+    position:absolute ;
+    bottom:2%;
+    left:22%;
+}
+
+
+#lbl1
+{
+    position:absolute;
+    right:15%;
+}
