@@ -14,7 +14,7 @@ It works on web users’ computers — even when they are offline and allows you
 * [Update CSS variables](https://github.com/Cybros/JavaScriptProjects/tree/master/change-css-with-js) with JS
 * Make a [flying color changing butterfly](https://github.com/Cybros/JavaScriptProjects/tree/master/Butterfly_) with JS using the Canavas Api.
 * Make a web based [Drum](https://github.com/Cybros/JavaScriptProjects/tree/master/drums) with sounds and keyboard input using JS
-* Make a **Virtual Debit Card** using the js
+* Make a **[Virtual Debit Card](https://github.com/Cybros-LNMIIT/JavaScriptProjects/tree/master/Virtual%20Debit%20Card)** using the js
 ### Intermediate Level Projects
 
 * Make a script which autofills common signup fields using random data
