@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- Own css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Loan Calculator</title> 
+</head>
+<body class="bg-secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+            <div class="card card1 card-body text-center mt-5">
+                <h3 class="heading pb-2 pt-1 mb-3 shadow bg-white rounded border border-dark">Loan Calculator</h3>
+                <form id="loan-form">
+                    <div class="form-group">
+                        <div class="input-group">
+                        <span class="input-group-text">₹</span>
+                        <input type="number" class="form-control" id="amount" placeholder="Loan Amount">
+                    </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-text">%</span>
+                            <input type="number" class="form-control" id="interest" placeholder="Interest">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="years" placeholder="Years to pay">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Calculate" class="btn btn-info btn-block submits">
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="container result">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+            <div class="card card2 card-body text-center mt-5">
+        
+                <!-- LOADER -->
+                <div id="loading">
+                    <img src="img/loading.gif" alt="">
+                </div>
+                <!-- RESULTS -->
+                <div id="results" class="pt-1 ">
+                    <h5 class="badge badge-dark p-3 mb-3">Results</h5>
+                    <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-text">Monthly Payment</span>
+                        <input type="number" class="form-control" id="monthly-payment" disabled>
+                    </div>
+                    </div>
+
+                    <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-text">Total Payment</span>
+                        <input type="number" class="form-control" id="total-payment" disabled>
+                    </div>
+                    </div>
+
+                    <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-text">Total Interest</span>
+                        <input type="number" class="form-control" id="total-interest" disabled>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- own JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>
