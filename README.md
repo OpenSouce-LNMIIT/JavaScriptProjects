@@ -5,7 +5,7 @@ It works on web users’ computers — even when they are offline and allows you
 
 ### Projects for Beginners
 
-* Make a Tic Tac Toe Board
+* Make a [Tic Tac Toe Board](https://github.com/NitinNair89/JavaScriptProjects/tree/master/tic-tac-toe)
 * Make a web based [calculator](https://github.com/Cybros/JavaScriptProjects/tree/master/calculator)
 * Make a Todo List with persisting browser storage using localStorage api
 * Make a unit converter (time, distance, currency, etc)
