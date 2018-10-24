@@ -1,0 +1,130 @@
+body {
+  color: white;;
+}
+body,
+#board {
+  background-color: #212121;
+}
+#scoreBox,
+#board,
+#chooseSymbol,
+#turns,
+#startGameButton,
+#restartBtn,
+#playAgainBtn,
+#gamefinalStatus {
+  display: none;
+}
+#game {
+  top:-40px;
+}
+#start span:hover,
+#chooseSymbol span:hover {
+  color: orange;
+  border-bottom: 2px dashed orange;
+}
+#game,
+#info,
+#board,
+#turns,
+#startGameButton {
+  position: relative;
+}
+#info,
+#startGameButton {
+  top: 130px;
+}
+#turns {
+  top: 20px;
+}
+#gamefinalStatus {
+  border: 2px solid orange;
+  background-color: green;
+}
+#p1Turn, #p2Turn, #gamefinalStatus {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#p1Turn, #p2Turn {
+  background-color: black;
+  transition: background-color 700ms ease;
+}
+#p1Turn.active, #p2Turn.active {
+  background-color: darkred;
+}
+#board {
+  height: 350px;
+  width: 350px;
+  margin: 0 auto;
+}
+#p1Score,
+#p2Score {
+  font-weight: bold;
+  color: orange;
+}
+h3,
+.square,
+#info {
+  font-family: "Finger Paint", cursive;
+}
+#p1,
+#p2,
+#chooseSymbol span {
+  font-size: 25px;
+  cursor: pointer;
+}
+.square {
+  width: 33.33%;
+  height: 33.33%;
+  font-size: 40px;
+  content: "";
+  cursor: pointer;
+  float: left;
+  border-width: 2px;
+  border-color: white;
+  padding-top: 20px;
+}
+.square.top {
+  border-bottom-style: solid;
+}
+.square.left {
+  clear: both;
+  border-right-style: solid;
+}
+.square.right {
+  border-left-style: solid;
+}
+.square.bottom {
+  border-top-style: solid;
+}
+#playAgainBtn,
+#restartBtn {
+  margin:0 auto;
+}
+#playAgainBtn { bottom: 50px; }
+#restartBtn { bottom: 5px; }
+
+#ttt1.win, 
+#ttt2.win,
+#ttt3.win,
+#ttt4.win, 
+#ttt5.win,
+#ttt6.win,
+#ttt7.win, 
+#ttt8.win,
+#ttt9.win
+{
+  animation: blink 0.7s linear 2;
+  background-color: green;
+}
+@keyframes blink {
+  0%{
+    background-color: transparent;
+  }
+  50%{
+    background-color: green;
+  }
+  100%{
+    background-color: transparent;
+  }
+}
