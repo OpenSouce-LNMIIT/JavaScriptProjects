@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TIC-TAC-TOE Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Author" content="Nitin Chandran Nair">
+  <meta name="keywords" content="tic-tac-toe, web app, game, html, css, javascript"
+  <meta name="description" content="A simple TIC-TAC-TOE game built using HTML, CSS and JavaScript">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="center-align">
+    <h3 class="orange-text">Tic-Tac-Toe !</h3>
+    <p id="scoreBox">
+      Player 01: <span id="p1Score">0</span> &nbsp;&nbsp;&nbsp; 
+      Player 02: <span id="p2Score">0</span>
+    </p>
+  </div>
+
+  <div id="game" class="center-align">
+    <div id="info">
+      <h4 class="animated fadeInDown"> Ready to Play? </h4>
+      <div id="start" class="animated fadeInUp">
+        Choose Players: &nbsp;&nbsp;
+        <span id="p1">1</span> &nbsp;&nbsp;&nbsp;
+        <span id="p2">2</span>
+      </div>
+      <div id="chooseSymbol">
+        <span id="x">X</span> &nbsp;&nbsp;or &nbsp;&nbsp;
+        <span id="o">O</span>
+      </div>
+    </div>
+    <button class="btn green waves-effect waves-effect-light" id="startGameButton">start</button>
+    <div id="board">
+      <div id="ttt1" class="square top left"></div>
+      <div id="ttt2" class="square top"></div>
+      <div id="ttt3" class="square top right"></div>
+      <div id="ttt4" class="square mid left"></div>
+      <div id="ttt5" class="square mid"></div>
+      <div id="ttt6" class="square mid right"></div>
+      <div id="ttt7" class="square bottom left"></div>
+      <div id="ttt8" class="square bottom"></div>
+      <div id="ttt9" class="square bottom right"></div>
+    </div>
+    <div id="turns">
+      <span id="p1Turn">Player 1</span>
+      <span id="p2Turn">Player 2</span>
+      <span id="gamefinalStatus"></span>
+    </div>
+  </div>
+  <div class="center-align">
+      <button id="playAgainBtn" class="btn green darken-2">play again?</button>
+      <button id="restartBtn" class="btn red darken-2">restart</button>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
