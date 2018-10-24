@@ -1,5 +1,8 @@
-# TIC-TAC-TOE Game
+# Simple TIC-TAC-TOE
+A simple Tic-Tac-Toe game built using HTML, CSS and JavaScript
 
-This is a simple tic-tac-toe game built using HTML, CSS and Javascript.
+## LIVE
+https://nitinnair89.github.io/simple-tic-tac-toe-game/
 
-Link: https://github.com/NitinNair89/simple-tic-tac-toe-game
+## Codepen
+https://codepen.io/Nitin-Chandran-Nair/full/KoYmgb/
