@@ -23,6 +23,7 @@ It works on web users’ computers — even when they are offline and allows you
 * Use [Unsplash-API](https://source.unsplash.com/) to create an image carousel
 * Use [Paper.js](http://paperjs.org/showcase) to create amazing graphics.
 * Use [ParallaxJS](http://matthew.wagerfield.com/parallax/) to create full page parallax boilerplates
+* Use [Football data API](https://www.football-data.org/index) to build a web page that will allow you retrive all tables of free leagues.  
 
 ### Advanced Level Projects
 
