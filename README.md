@@ -15,6 +15,7 @@ It works on web users’ computers — even when they are offline and allows you
 * Make a [flying color changing butterfly](https://github.com/Cybros/JavaScriptProjects/tree/master/Butterfly_) with JS using the Canavas Api.
 * Make a web based [Drum](https://github.com/Cybros/JavaScriptProjects/tree/master/drums) with sounds and keyboard input using JS
 * Make a product carousel
+* Make XO game.
 ### Intermediate Level Projects
 
 * Make a script which autofills common signup fields using random data
