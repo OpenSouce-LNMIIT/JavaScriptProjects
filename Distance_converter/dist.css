@@ -1,0 +1,71 @@
+body{
+    display: block;
+    background-color: #eeeeee;
+    padding: 30px;
+}
+.main{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feetcss{
+    display: inline-block;
+    border-style: solid;
+    background-color: #fc0303;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.metercss{
+    display: inline-block;
+    border-style: solid;
+    background-color: #fca903;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+    
+}
+.inchcss{
+    display: inline-block;
+    border-style: solid;
+    background-color: #f8fc03;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+    
+}
+.centicss{
+    display: inline-block;
+    border-style: solid;
+    background-color: #41fc03;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+}
+.yardcss{
+    display: inline-block;
+    border-style: solid;
+    background-color: #03f4fc;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.kilocss{
+    display: inline-block;
+    border-style: solid;
+    background-color: #85bcff;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+}
+.milecss{
+    display: inline-block;
+    border-style: solid;
+    background-color: #ff85ff;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance Converter</title>
+    <!--Script link-->
+    <script src="dist.js" type="text/javascript"></script>
+    <!--CSS link-->
+    <link rel="stylesheet" type="text/css" href="dist.css">
+
+</head>
+<body>
+    <h1 class="main">Distance Converter</h1>
+    <!--Feet Converter-->
+    <div class="feetcss">
+    <p>
+        <label for="Feet">Feet</label>
+        <input type="number" id="inputFeet" placeholder="Feet" oninput="feetConverter(this.value)" onchange="feetConverter(this.value)">
+    </p>
+    <p>Meters: <span id="outputMeters"></span></p>
+    <p>Inches: <span id="outputInches"></span></p>
+    <p>Centimeters: <span id="outputCentimeters"></span></p>
+    <p>Yards: <span id="outputYards"></span></p>
+    <p>Kilometers: <span id="outputKilometers"></span></p>
+    <p>Miles: <span id="outputMiles"></span></p>
+    </div>
+
+    
+    <!--Meters Converter-->
+    <div class="metercss">
+    <p>
+            <label for="Meter">Meter</label>
+            <input type="number" id="inputMeter" placeholder="Meter" oninput="meterConverter(this.value)" onchange="meterConverter(this.value)">
+        </p>
+        <p>Feet: <span id="mtof"></span></p>
+        <p>Inches: <span id="mtoi"></span></p>
+        <p>Centimeters: <span id="mtoc"></span></p>
+        <p>Yards: <span id="mtoy"></span></p>
+        <p>Kilometers: <span id="mtok"></span></p>
+        <p>Miles: <span id="mtom"></span></p>
+    </div>
+
+
+    <!--Inches Converter-->
+    <div class="inchcss">
+        <p>
+                <label for="Inches">Inches</label>
+                <input type="number" id="inputMeter" placeholder="Inches" oninput="incheConverter(this.value)" onchange="incheConverter(this.value)">
+        </p>
+        <p>Feet: <span id="itof"></span></p>
+        <p>Meters: <span id="itom"></span></p>
+        <p>Centimeters: <span id="itoc"></span></p>
+        <p>Yards: <span id="itoy"></span></p>
+        <p>Kilometers: <span id="itok"></span></p>
+        <p>Miles: <span id="itomi"></span></p>
+        </div>
+
+
+    <!--Centimeters Converter-->
+    <div class="centicss">
+        <p>
+                <label for="Centimeters">Centimeters</label>
+                <input type="number" id="inputMeter" placeholder="Centimeters" oninput="centimeterConverter(this.value)" onchange="centimeterConverter(this.value)">
+        </p>
+        <p>Feet: <span id="ctof"></span></p>
+        <p>Meters: <span id="ctom"></span></p>
+        <p>Inches: <span id="ctoi"></span></p>
+        <p>Yards: <span id="ctoy"></span></p>
+        <p>Kilometers: <span id="ctok"></span></p>
+        <p>Miles: <span id="ctomi"></span></p>
+        </div>
+
+    
+    <!--Yards Converter-->
+    <div class="yardcss">
+        <p>
+                <label for="Yards">Yards</label>
+                <input type="number" id="inputMeter" placeholder="Yards" oninput="yardConverter(this.value)" onchange="yardConverter(this.value)">
+        </p>
+        <p>Feet: <span id="ytof"></span></p>
+        <p>Meters: <span id="ytom"></span></p>
+        <p>Inches: <span id="ytoi"></span></p>
+        <p>Centimeters: <span id="ytoc"></span></p>
+        <p>Kilometers: <span id="ytok"></span></p>
+        <p>Miles: <span id="ytomi"></span></p>
+        </div>
+
+
+    <!--Kilometers Converter-->
+    <div class="kilocss">
+        <p>
+                <label for="Kilometers">Kilometers</label>
+                <input type="number" id="inputMeter" placeholder="Kilometers" oninput="kilometerConverter(this.value)" onchange="kilometerConverter(this.value)">
+        </p>
+        <p>Feet: <span id="ktof"></span></p>
+        <p>Meters: <span id="ktom"></span></p>
+        <p>Inches: <span id="ktoi"></span></p>
+        <p>Centimeters: <span id="ktoc"></span></p>
+        <p>Yards: <span id="ktoy"></span></p>
+        <p>Miles: <span id="ktomi"></span></p>
+        </div>
+
+
+    <!--Miles Converter-->
+    <div class="milecss">
+        <p>
+                <label for="Miles">Miles</label>
+                <input type="number" id="inputMeter" placeholder="Miles" oninput="mileConverter(this.value)" onchange="mileConverter(this.value)">
+        </p>
+        <p>Feet: <span id="mitof"></span></p>
+        <p>Meters: <span id="mitom"></span></p>
+        <p>Inches: <span id="mitoi"></span></p>
+        <p>Centimeters: <span id="mitoc"></span></p>
+        <p>Yards: <span id="mitoy"></span></p>
+        <p>Kilometers: <span id="mitok"></span></p>
+        </div>
+    
+    <hr>
+    <h3>Made By Suvam Prasad</h3>
+
+</body>
+</html>
