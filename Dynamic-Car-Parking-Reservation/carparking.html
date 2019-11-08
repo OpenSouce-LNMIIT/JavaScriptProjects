@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="carparrking.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Advent+Pro|Lilita+One|Bangers|Fugaz+One|Paytone+One|Sigmar+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Crete+Round|Luckiest+Guy|Passion+One&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:700|Sigmar+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+
+
+
+	
+	
+	<title></title>
+</head>
+<body>
+	 <div class="jumbotron jumbotron-fluid" style="background-color: #9F3B1C;"><div style="font-family: Passion One; font-size: 50px; margin-left:530px;">AVAILABLE PARKING SPOTS:<span id="update" style="font-size: 50px;">30</span></div>
+	 <div style="margin-left: 50px;"><p>INSTRUCTIONS: This can be used as many types of reservation system. All you need to do is type your name and a password. <br>Rules for Password:Password must be in numbers and its first digit must be your chose location to reserve. the block in extreme left is 1  and you can count from that block. so password must contain its first digit as the position on which you need to locate your position to reserve and the rest three digits can be any of the digits.<br><b>for example if i want to book 4th location then i wll input my name shubham and location 4567 where 4 is my chose location and 567 is any number that will help to make my slot protected as no one can guess it. <br>for example 2:input name as Akash and password is 23781 where 23 is the position to reserve and 781 is any number to make slot protected</b>.At the time of exit you need to remember your input name and password. type in your both credentials and you can make your reserved slot unreserved.<br>Available spots above is also updated after every entry and exit.</p>
+	<br> <b><i>EXIT Credentials are Case Sensitive so remember your input case letters exactly</i></b></div>
+	
+	</div>
+
+	<div><h1 style="font-family: Passion one;margin-left: 200px; float: left; margin-right: 800px; margin-bottom: 10px;"><b>ENTRY</b></h1></div>
+	<div><h1 style="font-family: Passion one;margin-bottom: 10px;"><b>EXIT</b></h1></div>
+
+
+	 
+	 <form name="validate" style="float: left; margin-right: 159px;">
+  <div class="row">
+    <div class="col" style="width: 362px; margin-left: 40px;">
+      <input type="text" class="form-control" id="userdetail1" placeholder="NAME">
+    </div>
+    <div class="col" style="max-width: 255px;">
+      <input type="password" class="form-control" id="userdetail2" placeholder="PASSWORD">
+    </div>
+    <div><button type="button" class="btn btn-success" id="submitlis">BOOK</button></div>
+  </div>
+</form>
+<form name="validate">
+  <div class="row">
+    <div class="col" style="max-width: 320px;">
+      <input type="text" class="form-control" id="exitdetail1" placeholder="NAME">
+    </div>
+    <div class="col" style="max-width: 255px;">
+      <input type="password" class="form-control" id="exitdetail2" placeholder="PASSWORD">
+    </div>
+    <div><button type="button" class="btn btn-danger" id="removelis" onclick >REMOVE</button></div>
+  </div>
+</form>
+<div class="vl"></div>
+   </div>
+	<div style="margin-left: 40px; margin-top: 30px;float: left; margin-right: 160px;">
+	<table style="border-color: white;" border="1" >
+		<tr>
+			<td id="1">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px; "><b>AVAILABLE</b></div>
+			</td>
+			<td id="2"><div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px; " style="color: black;"><b>AVAILABLE</b></div>
+				
+			</td>
+			<td id="3">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+		</tr>
+		<tr>
+			<td id="4">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="5">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="6">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+		</tr>
+		<tr>
+			<td id="7">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="8">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="9"><div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+				
+			</td>
+		</tr>
+		<tr>
+			<td id="10">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="11">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="12">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+		</tr>
+		<tr>
+			<td id="13">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="14">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="15">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div style="margin-top: 30px; " >
+	<table style="border-color: white;" border="1" >
+		<tr>
+			<td id="16">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="17"><div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+				
+			</td>
+			<td id="18">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+		</tr>
+		<tr>
+			<td id="19">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="20">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="21">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+		</tr>
+		<tr>
+			<td id="22">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="23">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="24"><div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+				
+			</td>
+		</tr>
+		<tr>
+			<td id="25">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="26">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="27">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+		</tr>
+		<tr>
+			<td id="28">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="29">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+			<td id="30">
+				<div style="margin-left: 30px; font-family: Passion One; font-size: 40px;" margin left="10px;"><b>AVAILABLE</b></div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+	
+<script type="text/javascript" src="test.js">
+		
+	</script>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="bootstrap.bundle.js"></script>
+<script src="C:/Users/chdno/Documents/TIC TAC TOE/jquery-3.4.1.min.js"></script>
+</body>
+</html>
