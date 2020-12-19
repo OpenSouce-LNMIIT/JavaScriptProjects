@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+#loading,
+#results{
+    display: none;
+}
+
+.card2{
+    background-color: transparent;
+}
+
+.heading{
+    font-family: 'Merienda', cursive;
+}
+.submits{
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+}
